@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background: linear-gradient(180deg, #1D1E2C 0%, #2D1B3D 50%, #1D1E2C 100%);
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.cursor-glow {
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.cursor-glow:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+}
+
+@layer utilities {
+  .text-shadow-glow {
+    text-shadow: 0 0 20px rgba(205, 180, 219, 0.5),
+                 0 0 40px rgba(255, 200, 221, 0.3);
+  }
+  
+  .glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1D1E2C;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #CDB4DB, #FFC8DD);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #FFC8DD, #FFD166);
+}
