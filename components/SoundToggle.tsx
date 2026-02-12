@@ -9,17 +9,25 @@ export default function SoundToggle() {
   const audioRef = useRef<HTMLAudioElement | null>(null)
 
   useEffect(() => {
-    // Create audio element (you can replace this with an actual music file URL)
-    // For now, this is a placeholder. Users can add their own ambient music file
-    // audioRef.current = new Audio('/ambient-music.mp3')
-    // audioRef.current.loop = true
-    // audioRef.current.volume = 0.3
+    // Create audio element with the Friends theme song
+    audioRef.current = new Audio('/Ill Be There for You (TV Version with Dialogue).mp3')
+    audioRef.current.loop = true
+    audioRef.current.volume = 0.4
+    
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause()
+        audioRef.current = null
+      }
+    }
   }, [])
 
   const toggleSound = () => {
     if (audioRef.current) {
       if (isMuted) {
-        audioRef.current.play()
+        audioRef.current.play().catch((error) => {
+          console.log('Audio playback failed:', error)
+        })
       } else {
         audioRef.current.pause()
       }
@@ -89,7 +97,7 @@ export default function SoundToggle() {
           className="absolute right-full mr-4 top-1/2 -translate-y-1/2 whitespace-nowrap glass px-4 py-2 rounded-lg border border-lavender/30"
         >
           <p className="text-sm text-white">
-            {isMuted ? 'Enable ambient music' : 'Disable music'}
+            {isMuted ? 'Play music 🎵' : 'Pause music'}
           </p>
         </motion.div>
       )}
