@@ -21,9 +21,9 @@ You are not defined by your doubts. You are defined by your resilience in facing
 
 Every time you've questioned yourself and kept going anyway? That's courage. Every time you've felt small but showed up? That's strength. You are not your fears. You are what you do despite them.
 
-The version of you that you're doubting? She's already done impossible things. She's survived 100% of her worst days. She's stronger than she knows.
+The version of you that you're doubting? You've already done impossible things. You've survived 100% of your worst days. You're stronger than you know.
 
-Trust her. She's never let you down.`
+Trust yourself. You've never let yourself down.`
   },
   {
     id: 'alone',
@@ -85,7 +85,7 @@ Your worth is not negotiable. It's not determined by who sees it or who doesn't.
 
 You are not valuable because of what you do. You are valuable because of who you are.
 
-And who you are? Someone who has survived storms and still finds reasons to smile. Someone who lifts others even when she's heavy. Someone who chooses love even when the world gives her reasons not to.
+And who you are? Someone who has survived storms and still finds reasons to smile. Someone who lifts others even when you're heavy. Someone who chooses love even when the world gives you reasons not to.
 
 You don't need to prove anything to anyone. You already are everything.`
   }

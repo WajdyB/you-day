@@ -44,7 +44,7 @@ export default function MainCharacterSection() {
           transition={{ duration: 0.8 }}
           className="text-5xl md:text-7xl font-serif text-center mb-6 text-lavender text-shadow-glow"
         >
-          She's Not Just a Person.
+          You're Not Just a Person.
         </motion.h2>
         
         <motion.h3
@@ -54,7 +54,7 @@ export default function MainCharacterSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-3xl md:text-5xl font-serif text-center mb-20 text-blush"
         >
-          She's a Story.
+          You're a Story.
         </motion.h3>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
