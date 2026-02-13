@@ -13,7 +13,7 @@ const letters: Letter[] = [
   {
     id: 'doubt',
     title: 'Open when you doubt yourself',
-    content: `Dear Extraordinary One,
+    content: `Dear Sousou,
 
 I know this feeling. The weight of wondering if you're enough. The spiral of second-guessing. But let me tell you something that's always been true, even when you can't see it:
 
@@ -28,7 +28,7 @@ Trust yourself. You've never let yourself down.`
   {
     id: 'alone',
     title: 'Open when you feel alone',
-    content: `Dear Beautiful Soul,
+    content: `Dear Sousou,
 
 Loneliness is a liar. It makes you feel invisible when you are anything but.
 
@@ -43,7 +43,7 @@ And even in the quiet, you are not unseen. You matter more than you know.`
   {
     id: 'overthink',
     title: 'Open when you overthink at 2am',
-    content: `Dear Restless Mind,
+    content: `Dear Sousou,
 
 It's 2am, and your thoughts are louder than the silence. I get it.
 
@@ -58,7 +58,7 @@ For now, rest. You've earned it.`
   {
     id: 'win',
     title: 'Open when you win',
-    content: `Dear Champion,
+    content: `Dear Sousou,
 
 Look at you.
 
@@ -75,7 +75,7 @@ You're unstoppable. And I can't wait to see what you do with that.`
   {
     id: 'worth',
     title: 'Open when you forget your worth',
-    content: `Dear Irreplaceable,
+    content: `Dear Sousou,
 
 Sometimes we forget. We get so used to being strong that we forget how rare strength is. We get so used to being kind that we forget how powerful kindness is.
 
@@ -212,7 +212,7 @@ export default function OpenWhenLetters() {
                   transition={{ delay: 0.5 }}
                   className="mt-8 text-center"
                 >
-                  <p className="text-gold italic">– Someone who sees you</p>
+                  <p className="text-gold italic">– Jdon</p>
                 </motion.div>
               )}
             </motion.div>
